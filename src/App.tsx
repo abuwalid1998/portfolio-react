@@ -14,7 +14,7 @@ import Footer from "./Components/Footer.tsx";
 function App() {
     return (
         <>
-        <Router>
+        <Router basename={"/portfolio-react"}>
             <NavBar title={"Amjad Khaliliah"} name={""} resume={cvlink} />
             <Routes>
                 <Route path="/home" element={<Home />} />
